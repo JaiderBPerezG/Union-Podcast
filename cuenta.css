@@ -1,0 +1,112 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #181a18;
+    padding: 0%;
+    margin: 0%;
+}
+#box-principal{
+    width: 100%;
+    height: 1200px;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #2d2e2d;
+    border-bottom: 1px solid#646364;
+}
+h1 {
+    height: auto;
+    width: 20%;
+    color: orangered;
+    margin: 0px;
+    float: left;
+    padding-left: 8%;
+    padding-top: 1%;
+}
+.boton {
+    height: auto;
+    float: left;
+    margin: 5px;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    padding-left: 10px;
+    background-color: #2d2e2d;
+    color: #ff6d00;
+    font-size: larger;
+    border: 1px solid #2d2e2d;
+    border-left: 1px solid #646364;
+}
+h2 {
+    text-align: center;
+}
+nav {
+    height: 80%;
+    width: 50%;
+    float: left;
+}
+li{
+    font-size: larger;
+    height: 5%;
+    margin: 10px;
+    float: left;
+}
+article {
+    margin: 10px;
+    width: 75%;
+    height: 50%;
+    float: left;
+    border-left: #474647;
+    background-color: #181a18;
+}
+.grid{  
+    margin-top: 5%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 50% 50%;
+    gap: 1em;
+}
+.logo {
+    border: 1px solid #646364;
+}
+aside {
+    margin: 0px;
+    border-right: 1px solid #494848;
+    width: 20%;
+    height: 90%;
+    float: left;
+    background-color: #232523;
+}
+.buscar 
+.buscar:hover input {
+    position: absolute;
+    padding: 5px;
+}
+
+.buscar input {
+    width: 0;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    translate: all 0.6s ease;
+    
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff6d00;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #2d2e2d;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
