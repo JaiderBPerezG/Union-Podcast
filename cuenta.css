@@ -77,13 +77,15 @@ aside {
     float: left;
     background-color: #232523;
 }
-.buscar 
-.buscar:hover input {
-    position: absolute;
+.buscar {
+    position: relative;
     padding: 5px;
 }
 
 .buscar input {
+    position: absolute;
+    right: 2px;
+    top: 5px;
     width: 0;
     height: 40px;
     padding: 0 20px;
@@ -110,3 +112,13 @@ aside {
     font-size: 20px;
     cursor: pointer;
 }
+
+.buscar:hover input {
+    width: 240px;
+}
+
+.buscar:focus input {
+    width: 240px;
+}
+
+
