@@ -17,7 +17,7 @@ header {
     border-bottom: 1px solid#646364;
 }
 
-h1 {
+#UP {
     height: auto;
     width: 20%;
     color: orangered;
@@ -25,6 +25,12 @@ h1 {
     float: left;
     padding-left: 8%;
     padding-top: 1%;
+}
+
+nav {
+    height: 80%;
+    width: 50%;
+    float: left;
 }
 
 .boton {
@@ -41,17 +47,6 @@ h1 {
     border-left: 1px solid #646364;
 }
 
-h2 {
-    text-align: center;
-    
-}
-
-nav {
-    height: 80%;
-    width: 50%;
-    float: left;
-}
-
 li{
     font-size: larger;
     height: 5%;
@@ -59,44 +54,13 @@ li{
     float: left;
 }
 
-article {
-    margin: 10px;
-    width: 75%;
-    height: 50%;
-    float: left;
-    border-left: #474647;
-    background-color: #181a18;
-}
-
-.grid{  
-    margin-top: 5%;
-    margin-left: 2%;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25% ;
-    grid-template-rows: 50% 50%;
-    gap: 8px;
-}
-
-h3 {
+h1{
     color: #ff6d00;
+}
+
+h2 {
     text-align: center;
-    width: auto;
-    height: auto;
-}
-
-
-
-.port {
-    border-radius: 10%;
-}
-
-aside {
-    margin: 0px;
-    border-right: 1px solid #494848;
-    width: 20%;
-    height: 90%;
-    float: left;
-    background-color: #232523;
+    
 }
 
 .buscar {
@@ -143,4 +107,51 @@ aside {
     width: 240px;
 }
 
+#cuerpo {
+    margin-top: 30px;
+    width: 900px;
+    margin-left: 200px;
+}
 
+article {
+    float: left;
+    width: 50%;
+    margin: 0%;
+}
+
+.titulo {
+    float: right;
+    margin-right: 30px;
+    color: #ff6d00;
+    
+}
+
+.descripcion {
+    border-bottom: solid 1px #646364;
+    color: #ff6d00;
+    padding-bottom: 20px;
+}
+
+aside {
+    text-align: center;
+    float: left;
+    width: 40%;
+    height: 1000px;
+    margin: 0%;
+    border-left: solid 1px #646364;
+}
+
+.port {
+    border-radius: 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    height: 500px;
+    width: 100%;
+}
+
+.episodio {
+    left: 0%szzzzzz;
+}
